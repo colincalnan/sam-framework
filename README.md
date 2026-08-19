@@ -104,3 +104,9 @@ Every session ends by updating `status.md`: gates ticked where evidence exists, 
 **What size problem fits?** One workflow with a nameable owner and a measurable outcome. If the problem needs an org chart to describe, split it into multiple projects.
 
 **What if the AI turns out to be the wrong answer?** That is a successful Sense phase. The recommendation can be "not this, not now", with the reasoning recorded. That outcome costs days instead of quarters.
+
+## License
+
+Copyright (c) 2026 Colin Calnan. Released under the [MIT License](LICENSE).
+
+The three-phase structure is adapted from the Sense and Motion transformation model ([senseandmotion.ai](https://senseandmotion.ai)). The frameworks, gates, templates and skill implementation in this repository are original work.

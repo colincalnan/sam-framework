@@ -6,7 +6,7 @@ updated: {{date}}
 
 # Sense Adopt Move (SAM)
 
-A three-phase method for solving organizational problems with AI. Adapted from the Sense and Motion transformation model and extended with practitioner frameworks. For internal working use.
+A three-phase method for solving organizational problems with AI. Adapted from the Sense and Motion transformation model (senseandmotion.ai) and extended with practitioner frameworks.
 
 The core claim: most AI initiatives fail not because the technology is wrong but because organizations stop too early. They pick a tool before understanding the work (skipping Sense), roll it out without building capability (skipping Adopt), or run pilots forever without redesigning the work (never reaching Move). BDO Canada's 2026 research found 46% of Canadian leaders experimenting with AI without ROI and only 18% embedding it into workflows. The gap that matters is between organizations redesigning work around AI and those funding disconnected pilots.
 

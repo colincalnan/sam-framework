@@ -1,6 +1,6 @@
 ---
 name: sam
-description: Bootstrap and run a Sense Adopt Move (SAM) problem-solving project for organizational AI work. Use when Colin wants to start structured work on an org problem ("start a SAM project", "new SAM engagement", "run sense adopt move on this"), or to resume one ("let's get started", "where are we") in or near a folder containing a SAM status.md.
+description: Bootstrap and run a Sense Adopt Move (SAM) problem-solving project for organizational AI work. Use when the user wants to start structured work on an org problem ("start a SAM project", "new SAM engagement", "run sense adopt move on this"), or to resume one ("let's get started", "where are we") in or near a folder containing a SAM status.md.
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep, AskUserQuestion
 ---
 
@@ -30,7 +30,7 @@ Ask these in one batch, conversationally. Do not scaffold anything until answere
 4. **Constraints**: privacy or tenancy rules, approved tooling, deadlines, budget, anything that bounds the solution space.
 5. **Success**: what would be visibly different in 90 days if this worked?
 
-Also confirm where to create the project. Default: `projects/sam/<slug>/` where `<slug>` is a short kebab-case name derived from the problem. If Colin is working in a different repo (e.g. a work machine), create it wherever he says.
+Also confirm where to create the project. Default: `projects/sam/<slug>/` where `<slug>` is a short kebab-case name derived from the problem. If the user is working in a different repo (a work machine, for instance), create it wherever they say.
 
 ### Step 2: scaffold
 
@@ -52,7 +52,7 @@ Then:
 - In `status.md`, set the title, today's date, and `phase: sense`. Leave all gates unchecked.
 - In `README.md`, set the project title.
 
-The folder must be fully self-contained after this step: someone with none of this workspace, and any coding agent, must be able to open it and continue using only the files inside. Never reference this skill, this workspace, or Colin's wiki from inside the generated files.
+The folder must be fully self-contained after this step: someone with none of this setup, and any coding agent, must be able to open it and continue using only the files inside. Never reference this skill or the surrounding workspace from inside the generated files.
 
 ### Step 3: start Sense
 
@@ -71,4 +71,3 @@ Do not stop after scaffolding. Read `01-sense/instructions.md` and begin the pha
 - **Every working session updates `status.md`**: tick gates, refresh `## Next actions`, append to `## Log`.
 - **Artifacts live in the phase folders** (`01-sense/`, `02-adopt/`, `03-move/`), kebab-case filenames, markdown only.
 - **No em dashes** in any generated content. Use commas, periods, or rewrite.
-- **Internal use only.** SAM language stays inside work folders, never in public content, per the open branding question in `wiki/concepts/ai/sense-and-motion-method.md` (this rule is for you, do not write it into generated projects).
